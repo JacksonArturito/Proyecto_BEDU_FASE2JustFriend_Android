@@ -12,9 +12,10 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <fragment
-            android:id="@+id/fragmentListSudadera"
-            class="com.example.justfriend.ListSudaderaFragment"
+            android:id="@+id/fragmentDetailSudadera"
+            class="com.example.justfriend.DetailSudaderaFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

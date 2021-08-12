@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JustFriend">
-        <activity android:name=".DetailPlayeraActivity"></activity>
+        <activity android:name=".DetailSudaderaActivity"></activity>
+        <activity android:name=".DetailPlayeraActivity" />
         <activity android:name=".JuegoActivity" />
         <activity android:name=".StickerActivity" />
         <activity android:name=".SudaderaActivity" />

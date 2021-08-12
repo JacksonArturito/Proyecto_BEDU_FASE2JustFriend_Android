@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detailViewSudadera"
+    android:visibility="invisible"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="16dp">
+    <TextView
+        android:id="@+id/nameSudadera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudadera"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4" />
+    <TextView
+        android:id="@+id/sudaderaDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/nameSudadera"
+        app:layout_constraintStart_toStartOf="@+id/guideline4" />
+    <RatingBar
+        android:id="@+id/sudaderaRate"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/sudaderaDescription"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        />
+    <ImageView
+        android:id="@+id/imgSudadera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cool"
+        app:layout_constraintTop_toBottomOf="@id/sudaderaRate"
+        app:layout_constraintStart_toStartOf="@id/guideline5"
+        app:layout_constraintEnd_toEndOf="@id/guideline6"/>
+
+    <TextView
+        android:id="@+id/sudaderaPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:text="$1,000"
+        app:layout_constraintTop_toBottomOf="@id/imgSudadera"
+        app:layout_constraintStart_toStartOf="@id/guideline4"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".3" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
