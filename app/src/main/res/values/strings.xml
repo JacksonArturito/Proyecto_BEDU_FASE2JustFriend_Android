@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JustFriend</string>
+    <string name="title">Just Friend</string>
+    <string name="secondary_text">ENVIO GRATIS en todas las compras mayores a $999</string>
+    <string name="action_1">Enviar</string>
+    <string name="playera">Playeras</string>
+    <string name="sudadera">Sudaderas</string>
+    <string name="sticker">Strickers</string>
+    <string name="juego">Juegos</string>
+    <string name="content_description_media">Imagen : )</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
